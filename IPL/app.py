@@ -7,17 +7,17 @@ import streamlit as st
 def get_img_as_base64(param):
     pass
 
-img = get_img_as_base64("background.jpg")
+img = get_img_as_base64("")
 
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWtPjORqnwTmO-Cljk9JEyoFDmiDjAlmp0rw&s");
+background-image: url("https://tse1.mm.bing.net/th?id=OIP.Nxev7i8TwhFU8liyp9MVyAHaE7&pid=Api&P=0&h=220");
 width: 100%;
 height:100%
 background-repeat: no-repeat;
 background-attachment: fixed;
-background-size: cover;
+background-size: 100% 100%;
 }}
 
 [data-testid="stSidebar"] > div:first-child {{
